@@ -46,8 +46,8 @@ export function HeroSection() {
           className="text-lg md:text-2xl mb-8 text-gray-200 px-4 animate-fade-in animate-delay-100"
           
         >
-          Soluções jurídicas personalizadas para proteger seus direitos e
-          interesses em questões cíveis, empresariais, imobiliário e condominiais.
+          Soluções jurídicas especializadas em Direito do Consumidor para proteger
+          seus direitos e garantir justiça nas relações de consumo.
         </p>
         <Card className="bg-white/10 backdrop-blur-md border-white/20 p-6 animate-fade-in" style={{ animationDelay: '0.2s' }}>
           <div className="flex items-center justify-center gap-2 mb-4">

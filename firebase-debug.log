@@ -1,0 +1,25 @@
+[debug] [2025-04-16T19:49:34.677Z] ----------------------------------------------------------------------
+[debug] [2025-04-16T19:49:34.681Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Dantas\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2025-04-16T19:49:34.681Z] CLI Version:   14.1.0
+[debug] [2025-04-16T19:49:34.681Z] Platform:      win32
+[debug] [2025-04-16T19:49:34.682Z] Node Version:  v20.17.0
+[debug] [2025-04-16T19:49:34.682Z] Time:          Wed Apr 16 2025 16:49:34 GMT-0300 (Horário Padrão de Brasília)
+[debug] [2025-04-16T19:49:34.682Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-04-16T19:49:34.962Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-04-16T19:49:34.963Z] > authorizing via signed-in user (italo.sol100@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  D:\Downloads\1_1_Projetos Desenvolvimento\Vendas Landing Page\Projetos de Clientes\Nardi Advogado 3 LP\Consumidor\project
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+

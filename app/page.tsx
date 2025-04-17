@@ -7,6 +7,7 @@ import { HeroSection } from "@/components/sections/HeroSection";
 import { LocationSection } from "@/components/sections/LocationSection";
 import { PracticeAreasSection } from "@/components/sections/PracticeAreasSection";
 import { ProblemsSection } from "@/components/sections/ProblemsSection";
+import { ProcessSection } from "@/components/sections/ProcessSection";
 import { TeamSection } from "@/components/sections/TeamSection";
 import { TestimonialsSection } from "@/components/sections/TestimonialsSection";
 
@@ -14,30 +15,41 @@ export default function Home() {
   return (
     <main className="min-h-screen">
       <section id="hero">
-      <HeroSection />
+        <HeroSection />
       </section>
       
       <section id="areas">
         <PracticeAreasSection />
       </section>
+
       <section id="problemas">
         <ProblemsSection />
       </section>
+
+      <section id="processo" className="bg-gray-50">
+        <ProcessSection />
+      </section>
+
       <BenefitsSection />
+
       <section id="sobre">
         <AboutSection />
         <TeamSection />
       </section>
+
       <section id="depoimentos">
         <TestimonialsSection />
       </section>
+
       <section id="localizacao">
         <LocationSection />
       </section>
+
       <section id="contato">
         <FAQSection />
         <CTASection />
       </section>
+
       <Footer />
     </main>
   );

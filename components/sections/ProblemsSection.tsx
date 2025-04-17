@@ -7,43 +7,43 @@ import { useScrollReveal } from "@/hooks/useScrollReveal";
 
 const consumerProblems = [
   {
-    title: "Problemas com Produtos",
+    title: "Problemas com Cia Aérea",
     items: [
-      "Produtos com defeito ou má qualidade",
-      "Entrega de produto diferente do anunciado",
-      "Problemas com garantia",
-      "Atraso ou não entrega de produtos",
-      "Produtos falsificados ou irregulares"
+      "Atraso ou cancelamento de voos",
+      "Extravio de Bagagem",
+      "Overbooking (falta de lugares no voo)",
+      "Alterações unilaterais de horários",
+      "Problemas com conexões"
     ]
   },
   {
-    title: "Questões Contratuais",
+    title: "Problemas com Construtoras",
     items: [
-      "Contratos abusivos de consumo",
-      "Cancelamento de serviços",
-      "Mudança unilateral de contrato",
-      "Descumprimento de ofertas",
-      "Problemas com garantia estendida"
+      "Rescisão contratual e devolução dos valores pagos",
+      "Atraso na entrega da obra",
+      "Vícios (defeitos) construtivos",
+      "Cobrança indevida de taxas",
+      "Problemas com documentação"
     ]
   },
   {
-    title: "Cobranças e Pagamentos",
+    title: "Problemas com Concessionárias e Golpes",
     items: [
-      "Cobranças indevidas ou abusivas",
-      "Negativação irregular",
-      "Juros e multas excessivos",
-      "Cobrança de serviços não solicitados",
-      "Problemas com cartão de crédito"
+      "Cobranças ou contratações indevidas",
+      "Interrupções e suspensão de serviços",
+      "Suporte em Termo de Ocorrência e Inspeção (TOI)",
+      "Golpe do PIX",
+      "Cancelamento unilateral de contas/cartões"
     ]
   },
   {
-    title: "Serviços",
+    title: "Problemas com Plano de Saúde e SUS",
     items: [
-      "Má prestação de serviços",
-      "Serviços não realizados",
-      "Orçamentos não respeitados",
-      "Problemas com garantia de serviços",
-      "Atrasos injustificados"
+      "Negativa de cobertura",
+      "Negativa de exames, cirurgias e tratamentos",
+      "Demora no fornecimento de medicamentos SUS",
+      "Aumento abusivo das mensalidades",
+      "Erro médico ou odontológico"
     ]
   }
 ];
@@ -53,7 +53,7 @@ export function ProblemsSection() {
 
   const handleWhatsAppClick = () => {
     const message = encodeURIComponent(
-      "Olá, vim pelo site e gostaria de falar com um advogado especialista em Direito do Consumidor. Tenho um problema que preciso resolver. Pode me ajudar?"
+      "Olá, vim pelo site e gostaria de falar com o Dr. Sidnei Nardini. Tenho um problema que preciso resolver. Pode me ajudar?"
     );
     window.open(`https://wa.me/5517997720489?text=${message}`, "_blank");
   };
@@ -105,8 +105,8 @@ export function ProblemsSection() {
             size="lg"
             className="bg-primary hover:bg-primary-dark text-white hover-scale"
           >
-            <MessageCircle className=" mx-auto" />
-            Resolver Meu Problema de Agora
+            <MessageCircle className="mr-2" />
+            Resolver Meu Problema Agora
           </Button>
         </div>
       </div>

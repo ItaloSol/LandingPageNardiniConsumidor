@@ -65,7 +65,6 @@ export function LocationSection() {
             </div>
             <div className="w-full md:w-2/3 h-[400px] rounded-lg overflow-hidden shadow-lg animate-fade-in" style={{ animationDelay: "0.2s" }}>
               <iframe
-                // Loading attribute removed for iOS Safari compatibility
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3729.1124625072387!2d-49.40418772374668!3d-20.816725186115793!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94bdad798f0a94fd%3A0xdfb9fbbf682ce8e0!2sNardini%20Advogados!5e0!3m2!1spt-BR!2sbr!4v1711051033644!5m2!1spt-BR!2sbr"
                 width="100%"
                 height="100%"

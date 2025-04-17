@@ -33,26 +33,24 @@ export function HeroSection() {
         <div className="mb-8 w-full max-w-[200px] mx-auto relative h-[80px] md:h-[100px]">
           <Image
             src="/images/logo-headr.webp"
-            alt="Estátua da Justiça"
+            alt="Nardini Advogados"
             fill
             className="object-contain"
             priority
           />
         </div>
         <h1 className="text-4xl md:text-7xl font-bold mb-6 text-white animate-fade-in">
-          Excelência Jurídica ao Seu Alcance
+          Está enfrentando problemas com relação de consumo?
         </h1>
-        <p
-          className="text-lg md:text-2xl mb-8 text-gray-200 px-4 animate-fade-in animate-delay-100"
-          
-        >
-          Soluções jurídicas especializadas em Direito do Consumidor para proteger
-          seus direitos e garantir justiça nas relações de consumo.
+        <p className="text-lg md:text-2xl mb-8 text-gray-200 px-4 animate-fade-in animate-delay-100">
+          Negativação Indevida, Cobrança Associativa, Empréstimos no INSS, Instagram Hackeado, 
+          Problemas com Cia. Aérea, Rescisão de Imóveis ou Atraso na Entrega da Obra? 
+          Entre em contato hoje mesmo e conheça seus direitos.
         </p>
         <Card className="bg-white/10 backdrop-blur-md border-white/20 p-6 animate-fade-in" style={{ animationDelay: '0.2s' }}>
           <div className="flex items-center justify-center gap-2 mb-4">
             <Phone className="w-5 h-5 text-green-400" />
-            <span className="text-lg font-medium text-green-400">Atendimento Imediato</span>
+            <span className="text-lg font-medium text-green-400">Consulta sem compromisso</span>
           </div>
           <div className="flex flex-col md:flex-row gap-4 justify-center items-center">
             <div className="w-full md:w-auto">
@@ -61,10 +59,10 @@ export function HeroSection() {
                 placeholder="Digite seu nome"
                 value={name}
                 onChange={(e) => setName(e.target.value)}
-                className="w-full md:w-64 px-4 py-3 rounded-lg bg-white/10 border border-white/20 text-white placeholder-white/60 focus:outline-none focus:ring-2 focus:ring-blue-500 transition-all"
+                className="w-full md:w-64 px-4 py-3 rounded-lg bg-white/10 border border-white/20 text-white placeholder-white/60 focus:outline-none focus:ring-2 focus:ring-primary transition-all"
               />
               <p className="text-xs text-white/60 mt-2">
-                Resposta em até 5 minutos no horário comercial
+                Com experiência em defender os direitos dos consumidores
               </p>
             </div>
             <Button
@@ -74,7 +72,7 @@ export function HeroSection() {
               disabled={!name.trim()}
             >
               <MessageCircle className="mr-2" />
-              Fale com um Advogado
+              Fale com um Especialista
             </Button>
           </div>
         </Card>

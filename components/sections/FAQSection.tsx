@@ -23,7 +23,7 @@ const faqs = [
   },
   {
     question: "Vocês atendem em outras cidades?",
-    answer: "Sim, além do atendimento presencial em São Paulo, realizamos atendimento remoto para clientes de todo o Brasil.",
+    answer: "Sim, além do atendimento presencial em São José do Rio Preto/SP, realizamos atendimento remoto para clientes de todo o Brasil.",
   },
 ];
 

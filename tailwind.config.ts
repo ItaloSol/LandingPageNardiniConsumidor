@@ -10,19 +10,29 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        // Primary Colors
-        'primary': '#2E7D32',
-        'primary-dark': '#1B5E20',
-        'primary-light': '#81C784',
+        // Custom color palette
+        'beige': '#F1E7D2',
+        'gold': '#957D56',
+        'dark-green': '#3E4A46',
+        'light-green': '#586762',
         
-        // Secondary Colors
-        'secondary': '#FFD700',
-        'secondary-dark': '#DAA520',
+        // Map new colors to semantic names
+        'primary': '#3E4A46', // dark-green
+        'primary-dark': '#2D3832', // darker shade of dark-green
+        'primary-light': '#586762', // light-green
+        
+        'secondary': '#957D56', // gold
+        'secondary-dark': '#7A6545', // darker shade of gold
+        'secondary-light': '#A8927A', // lighter shade of gold
+        
+        'accent': '#F1E7D2', // beige
+        'accent-dark': '#E5D6B6', // darker shade of beige
+        'accent-light': '#F8F2E6', // lighter shade of beige
         
         // Custom Colors for Components
-        'success': '#2E7D32',
-        'warning': '#FFD700',
-        'info': '#81C784',
+        'success': '#3E4A46',
+        'warning': '#957D56',
+        'info': '#586762',
         'error': '#D32F2F',
         
         background: 'hsl(var(--background))',
@@ -35,21 +45,9 @@ const config: Config = {
           DEFAULT: 'hsl(var(--popover))',
           foreground: 'hsl(var(--popover-foreground))',
         },
-        primaryTheme: {
-          DEFAULT: 'hsl(var(--primary))',
-          foreground: 'hsl(var(--primary-foreground))',
-        },
-        secondaryTheme: {
-          DEFAULT: 'hsl(var(--secondary))',
-          foreground: 'hsl(var(--secondary-foreground))',
-        },
         muted: {
           DEFAULT: 'hsl(var(--muted))',
           foreground: 'hsl(var(--muted-foreground))',
-        },
-        accent: {
-          DEFAULT: 'hsl(var(--accent))',
-          foreground: 'hsl(var(--accent-foreground))',
         },
         destructive: {
           DEFAULT: 'hsl(var(--destructive))',
@@ -65,11 +63,11 @@ const config: Config = {
         sm: 'calc(var(--radius) - 4px)',
       },
       boxShadow: {
-        'custom': '0 4px 14px 0 rgba(46, 125, 50, 0.1)',
+        'custom': '0 4px 14px 0 rgba(62, 74, 70, 0.1)',
       },
       gradients: {
-        'primary': 'linear-gradient(135deg, #2E7D32 0%, #1B5E20 100%)',
-        'secondary': 'linear-gradient(135deg, #FFD700 0%, #DAA520 100%)',
+        'primary': 'linear-gradient(135deg, #3E4A46 0%, #2D3832 100%)',
+        'secondary': 'linear-gradient(135deg, #957D56 0%, #7A6545 100%)',
       },
     },
   },

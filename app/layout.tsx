@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   keywords: [
     "advogado direito do consumidor",
     "problemas com produtos",
-    "cobranças indevidas",
+    "cobranças indevidas", 
     "práticas abusivas",
     "defesa do consumidor",
     "Nardini Advogados",
@@ -90,6 +90,10 @@ export default function RootLayout({
         <meta name="geo.placename" content="São José do Rio Preto" />
         <meta name="geo.position" content="-20.8167252;-49.4015975" />
         <meta name="ICBM" content="-20.8167252, -49.4015975" />
+        <link
+          rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        />
       </head>
       <body className={inter.className}>
         <Navbar />

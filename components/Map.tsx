@@ -33,7 +33,7 @@ export default function Map() {
           <br />
           Rua Carmelino Gonçalves Condessa, 166
           <br />
-          Jardim Alto Rio Preto
+          Sala 01 - Jardim Alto Rio Preto
         </Popup>
       </Marker>
     </MapContainer>

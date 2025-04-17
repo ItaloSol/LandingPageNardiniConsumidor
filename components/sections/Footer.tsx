@@ -1,7 +1,7 @@
 "use client";
 
-import { MessageCircle, Phone, MapPin } from "lucide-react";
-import { useScrollReveal } from "@/hooks/useScrollReveal";
+import { MessageCircle, Phone, MapPin } from 'lucide-react';
+import { useScrollReveal } from '@/hooks/useScrollReveal';
 
 export function Footer() {
   const { ref: footerRef, isVisible: footerIsVisible } = useScrollReveal();
@@ -54,8 +54,15 @@ export function Footer() {
         </div>
         <div className="mt-8 pt-8 border-t border-primary-dark text-center animate-fade-in" style={{ animationDelay: "0.3s" }}>
           <p className="text-gray-400">
-            © {new Date().getFullYear()} Sidnei Nardini Advogado. Todos os direitos
-            reservados.
+            © {new Date().getFullYear()} Sidnei Nardini Advogado. Todos os direitos reservados. Site criado por{' '}
+            <a 
+              href="https://www.instagram.com/landingpagecraft/" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="text-secondary hover:text-secondary-light transition-colors"
+            >
+              landingpagecraft
+            </a>
           </p>
         </div>
       </div>

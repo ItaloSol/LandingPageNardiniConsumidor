@@ -1,5 +1,6 @@
 {
   "hosting": {
+    "site": "consumidorsidnei",
     "public": "out",
     "ignore": [
       "firebase.json",

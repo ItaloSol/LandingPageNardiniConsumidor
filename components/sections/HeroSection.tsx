@@ -1,21 +1,21 @@
-'use client';
+"use client";
 
-import { Button } from '@/components/ui/button';
-import { MessageCircle, Phone } from 'lucide-react';
-import Image from 'next/image';
-import { useParallax } from '@/hooks/useParallax';
-import { useState } from 'react';
-import { Card } from '@/components/ui/card';
+import { Button } from "@/components/ui/button";
+import { MessageCircle, Phone } from "lucide-react";
+import Image from "next/image";
+import { useParallax } from "@/hooks/useParallax";
+import { useState } from "react";
+import { Card } from "@/components/ui/card";
 
 export function HeroSection() {
   const parallaxRef = useParallax(0.5);
-  const [name, setName] = useState('');
+  const [name, setName] = useState("");
 
   const handleWhatsAppClick = () => {
     const message = encodeURIComponent(
       `Olá, meu nome é ${name} e gostaria de falar com o Dr. Sidnei Nardini. Pode me ajudar?`
     );
-    window.open(`https://wa.me/5517997720489?text=${message}`, '_blank');
+    window.open(`https://wa.me/5517997720489?text=${message}`, "_blank");
   };
 
   return (
@@ -23,7 +23,7 @@ export function HeroSection() {
       <div className="absolute inset-0 z-0" ref={parallaxRef as React.RefObject<HTMLDivElement>}>
         <Image
           src="/images/back.webp"
-          alt="Estátua da Justiça"
+          alt="Nardini Advogados"
           fill
           className="object-cover brightness-[0.3]"
           priority
@@ -43,11 +43,9 @@ export function HeroSection() {
           Está enfrentando problemas com relação de consumo?
         </h1>
         <p className="text-lg md:text-2xl mb-8 text-gray-200 px-4 animate-fade-in animate-delay-100">
-          Negativação Indevida, Cobrança Associativa, Empréstimos no INSS, Instagram Hackeado, 
-          Problemas com Cia. Aérea, Rescisão de Imóveis ou Atraso na Entrega da Obra? 
-          Entre em contato hoje mesmo e conheça seus direitos.
+          Negativação Indevida, Empréstimos no INSS, Instagram Hackeado ou Problemas com Cia. Aérea? Entre em contato hoje mesmo.
         </p>
-        <Card className="bg-white/10 backdrop-blur-md border-white/20 p-6 animate-fade-in" style={{ animationDelay: '0.2s' }}>
+        <Card className="bg-white/10 backdrop-blur-md border-white/20 p-6 animate-fade-in" style={{ animationDelay: "0.2s" }}>
           <div className="flex items-center justify-center gap-2 mb-4">
             <Phone className="w-5 h-5 text-green-400" />
             <span className="text-lg font-medium text-green-400">Consulta sem compromisso</span>

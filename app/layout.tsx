@@ -7,7 +7,7 @@ import { Navbar } from "@/components/Navbar";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://nardiniadvogados.web.app/'),
+  metadataBase: new URL('https://consumidorsidnei.web.app/'),
   title: {
     default: "Nardini Advogados | Especialista em Direito do Consumidor em São José do Rio Preto",
     template: "%s | Nardini Advogados"
@@ -36,7 +36,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "pt_BR",
-    url: "https://nardiniadvogados.web.app/",
+    url: "https://consumidorsidnei.web.app/",
     siteName: "Nardini Advogados",
     title: "Nardini Advogados | Especialista em Direito do Consumidor",
     description: "Especialistas em defender seus direitos nas relações de consumo. Problemas com produtos, serviços, cobranças indevidas e práticas abusivas.",
@@ -70,7 +70,7 @@ export const metadata: Metadata = {
     google: "your-google-verification-code",
   },
   alternates: {
-    canonical: "https://nardiniadvogados.web.app/",
+    canonical: "https://consumidorsidnei.web.app/",
   },
   icons: {
     icon: "/logo.ico",
@@ -85,7 +85,7 @@ export default function RootLayout({
   return (
     <html lang="pt-BR" className="scroll-smooth">
       <head>
-        <link rel="canonical" href="https://nardiniadvogados.web.app/" />
+        <link rel="canonical" href="https://consumidorsidnei.web.app/" />
         <meta name="geo.region" content="BR-SP" />
         <meta name="geo.placename" content="São José do Rio Preto" />
         <meta name="geo.position" content="-20.8167252;-49.4015975" />
